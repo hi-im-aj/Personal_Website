@@ -44,9 +44,16 @@ const navbar = () => {
       </div>
     </div>
   );
-
   return (
-    <>
+    <div className="bg-black text-white h-14">
+      <div className="inline-flex w-full">
+        <div className="w-6/12"></div>
+        <div className="w-6/12 flex justify-end"></div>
+      </div>
+    </div>
+  );
+  return (
+    <div>
       {active && menu}
       <div className="inline-flex w-full">
         <div className="w-6/12"></div>
@@ -60,7 +67,7 @@ const navbar = () => {
           <ul className="md:inline-flex hidden">{listItems}</ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

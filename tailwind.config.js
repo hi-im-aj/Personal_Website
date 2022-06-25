@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        forest: "url('/forest.jpg')",
+      },
+    },
     container: {
       center: true,
     },
