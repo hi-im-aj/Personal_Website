@@ -13,6 +13,7 @@ const Home: NextPage = () => {
 
       <main className="container">
         <Navbar />
+        <div>Home</div>
       </main>
     </div>
   );
