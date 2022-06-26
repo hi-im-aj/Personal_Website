@@ -3,7 +3,7 @@
 const Bars = ({ clazz }: { clazz?: string }) => {
   return (
     <svg
-      className="fill-gray-300 w-12 h-12 absolute top-5 right-5 z-40"
+      className="fill-white w-8 h-8"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 448 512"
     >
